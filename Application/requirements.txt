@@ -1,0 +1,7 @@
+streamlit
+numpy
+pandas
+matplotlib
+yfinance
+py_vollib_vectorized
+scipy
