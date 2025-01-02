@@ -246,7 +246,7 @@ class Options:
         options = []
         mats = yf.Ticker(self.ticker).options
         now_utc = pd.to_datetime(datetime.datetime.now(), utc=True)
-        r = yf.Ticker("^FVX").history("1d", "1m").iloc[-1]
+        r = yf.Ticker("^FVX").history("1d", "1m").Close.iloc[-1] / 100
 
         for mat in mats:
             o_ = yf.Ticker(self.ticker).option_chain(mat)
