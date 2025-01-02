@@ -12,7 +12,7 @@ st.set_page_config(page_title="Implied Volatility Surface", layout="centered", p
 
 st.title("Implied Volatility Surface Visualizer")
 
-st.markdown("This application retrieves options data and the risk-free rate from Yahoo Finance, calculating implied volatility using the Black-Scholes-Merton model. You can filter the data based on criteria such as strike price, volatility range, trading activity, and expiration dates. The app generates interactive 3D graphs of the implied volatility surface, letting you customize visualization parameters. You can also view the filtered data in a table and download it as a CSV file for further analysis.")
+st.markdown(f"This application retrieves options data and the [risk-free rate](https://finance.yahoo.com/quote/%5EFVX/) from Yahoo Finance, calculating implied volatility using the Black-Scholes-Merton model. You can filter the data based on criteria such as strike price, volatility range, trading activity, and expiration dates. The app generates interactive 3D graphs of the implied volatility surface, letting you customize visualization parameters. You can also view the filtered data in a table and download it as a CSV file for further analysis.")
 
 st.sidebar.markdown(f"Created by Nathan Ndjoli")
 st.sidebar.markdown(f"[Linkedin](https://www.linkedin.com/in/nndj/)")
