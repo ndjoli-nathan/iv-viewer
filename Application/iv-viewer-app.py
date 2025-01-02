@@ -227,7 +227,7 @@ class IV:
         )
         IV_grid = rbf(K_grid, T_grid)
 
-        fig = plt.figure(figsize=(10, 10))
+        fig = plt.figure(figsize=(16, 16))
         ax = fig.add_subplot(111, projection="3d")
         surf = ax.plot_surface(
             T_grid, K_grid, IV_grid, cmap=cmap, edgecolor=None, alpha=0.8
